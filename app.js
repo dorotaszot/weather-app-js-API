@@ -1,5 +1,6 @@
-const weather = new Weather('Boston');
+const weather = new Weather('Kraków');
 const ui = new UI;
+// const sunriseSunset = new SunriseSunset;
 
 document.addEventListener('DOMContentLoaded', getWeather);
 // document.getElementById('change-location-btn').addEventListener('click', changeLocation)
