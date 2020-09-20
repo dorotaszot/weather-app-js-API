@@ -13,6 +13,9 @@ document.getElementById('change-location-btn').addEventListener('click', (e) => 
   storage.setLocationData(city);
   getWeather();
   // city = '';
+  // Dlaczego nie tak jak niżej?
+  //$('#locModal').hide();
+
   $('#locModal').modal('hide');
 
 });
